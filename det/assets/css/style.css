@@ -1,0 +1,65 @@
+
+header { 
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 0 20px 5px rgba(50,50,50,0.12);
+    transition: all .4s ease-in-out;
+    
+     } 
+
+body{
+    padding-top: 70px;    
+   
+}
+
+.top_navbar a {
+	color: black ;
+}
+
+.fixed_book img {
+	height: 400px;
+}
+
+.fixed_book {
+
+    position: fixed;
+    z-index: 1;
+    left: 5px;
+    overflow-x: hidden;
+    
+}   
+
+.gallery {
+    margin-left: 330px; 
+    
+}
+
+
+@media(max-width: 991px) {
+ .gallery {
+    margin-left: 240px;
+  }
+}
+
+@media(max-width: 767px) {
+	.fixed_book img {
+	 height: 300px;
+	}
+
+	.gallery img {
+	    height: 240px;
+        margin-left: 240px;
+ }
+
+
+@media(max-width: 600px) { 
+    
+	.fixed_book img {
+	 height: 280px;
+	}
+
+	.gallery img {
+	    height: 200px;
+        margin-left: 180px;
+	}
+
+}
